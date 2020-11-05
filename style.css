@@ -13,6 +13,24 @@
 }
 
 @keyframes load-spinner-balls {
+    0% {
+        transform: scaleX(0);
+        opacity: .5;
+    }
+    17% {
+        transform: scaleX(.18);
+    }   
+    24% {
+        transform: scaleX(.4);
+    }
+    46% {
+        transform: scaleX(.81);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+
+@keyframes load-spinner-balls {
   0% {
     opacity: 1;
     transform: rotate(0);
