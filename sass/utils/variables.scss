@@ -1,0 +1,84 @@
+$primary-color: #9356dc;
+$secondary-color: #ff79da;
+$tertiary-color: #99e2d0;
+$footer-bg: #2c2c2c;
+$section-bg: rgb(246, 246, 246);
+$box-bg: white;
+$dish-box-radius: 15px;
+$dish-box-padding: 0px 30px 0px 10px;
+$dish-box-margin: 15px;
+$dish-box-shadow: 2px 2px 5px 2px darken(rgb(246, 246, 246), 10%);
+$dish-box-layout: (
+  padding: (
+    $dish-box-padding,
+  ),
+  margin: (
+    $dish-box-margin,
+  ),
+  shadow: (
+    $dish-box-shadow,
+  ),
+);
+$font-palette: (
+  brand: (
+    size: 27px,
+    weight: 500,
+    color: black,
+    margin: 5px,
+    family: "Shrikhand",
+  ),
+  dish-type: (
+    size: 16px,
+    weight: 100,
+    color: $footer-bg,
+    margin: 25px 6% 20px,
+  ),
+  dish-name: (
+    size: 18px,
+    weight: 600,
+    color: black,
+    margin: 15px 0px 0px,
+  ),
+  dish-sub: (
+    size: 15px,
+    weight: 300,
+    color: $footer-bg,
+    margin: 2px -50px 10px 0px,
+  ),
+  footer: (
+    size: 15px,
+    weight: 200,
+    color: white,
+    margin: 5px,
+  ),
+  section-title: (
+    size: 24px,
+    weight: 900,
+    color: black,
+    margin: 40px 25px 20px,
+  ),
+  restaurant-name: (
+    size: 18px,
+    weight: 600,
+    color: black,
+    margin: 0px 10px 5px,
+  ),
+  restaurant-desc: (
+    size: 16px,
+    weight: 300,
+    color: black,
+    margin: 0px 10px,
+  ),
+  discover: (
+    size: 18px,
+    weight: 100,
+    color: black,
+    margin: 5px 10px 25px,
+  ),
+  btn: (
+    size: 16px,
+    weight: 500,
+    color: white,
+    margin: 0px 0px 50px,
+  )
+);

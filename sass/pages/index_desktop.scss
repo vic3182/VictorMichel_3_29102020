@@ -1,0 +1,48 @@
+@media screen and (min-width: 720px) {
+  figure {
+    max-width: 22%;
+    & .fas:not(.hidden) {
+      margin-left: 30%;
+    }
+    & .fas.hidden {
+      margin-left: 30%;
+  }
+  }
+  .header-index {
+    height: auto;
+    margin: 0px;
+  }
+  .index-body section {
+    margin: 0px;
+    padding: 0px;
+  }
+  h2.index {
+    text-align: center;
+    padding-top: 25px;
+    margin-top: 0px;
+  }
+  .index-section-fonctionnement {
+    margin-bottom: 10px;
+    margin-top: 0px;
+  }
+  .index-fonctionnement {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .index-restaurants {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .index-box {
+    width: 25%;
+  }
+  .discover {
+    padding-bottom: 0px;
+  }
+  .flag-new {
+    margin-left: 24%;
+  }
+}

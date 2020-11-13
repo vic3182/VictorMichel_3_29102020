@@ -1,0 +1,37 @@
+html {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dish-box {
+  @include dish-box-layout;
+  background-color: $box-bg;
+  border-radius: $dish-box-radius;
+  animation: box-appear 2.5s;
+  overflow: hidden;
+}
+
+.main-section {
+  margin-top: -30px;
+  background-color: $section-bg;
+  border-radius: 50px 50px 0px 0px;
+}
+
+.dish-type {
+  overflow: hidden;
+  min-height: 150px;
+}
+
+.dish-desc {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 100%;
+}

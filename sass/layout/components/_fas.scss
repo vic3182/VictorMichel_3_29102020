@@ -1,0 +1,49 @@
+.fas {
+  &.back {
+    position: absolute;
+    color: $footer-bg;
+    margin-right: 90%;
+  }
+  &.mapmarker {
+    color: $footer-bg;
+    margin-right: 15px;
+  }
+  &.fa-check {
+    background-color: white;
+    margin: 35%;
+    border-radius: 50%;
+    color: $tertiary-color;
+    padding: 3px;
+  }
+}
+.fas-title {
+  & .fas:not(.hidden) {
+    margin-top: -35px;
+    position: absolute;
+    margin-left: 85%;
+    font-size: 24px;
+    -webkit-text-stroke: 1px black;
+    color: transparent;
+    &:hover {
+      opacity: 0;
+    }
+  }
+  & .fas.hidden {
+    margin-top: -36px;
+    position: absolute;
+    margin-left: 85%;
+    opacity: 0;
+    font-size: 26px;
+    -webkit-text-stroke: 1px white;
+    transition: 0.4s ease-out;
+    background: linear-gradient(210deg, $primary-color, $primary-color, $primary-color, orange, orange) right;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 0%;
+    &:hover{
+      opacity: 1;
+      background-size: 100%;
+      cursor: pointer;
+    }
+  }
+}

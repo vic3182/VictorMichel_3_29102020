@@ -1,0 +1,52 @@
+@media screen and (min-width: 900px) {
+  header {
+    margin: 0px;
+    padding: 0px;
+    height: 42%;
+    overflow: hidden;
+    & .img {
+      object-fit: scale-down;
+    }
+  }
+  h2.brand {
+    text-align: center;
+  }
+  .dish-list {
+    padding-bottom: 100px;
+    margin-left: -20px;
+    margin-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+  }
+  .dish-type {
+    flex: 3;
+  }
+  .footer {
+    margin: 0px;
+    text-align: center;
+  }
+  .btn--order {
+    position: absolute;
+    display: block;
+    height: 50px;
+    width: 95%;
+    margin: 70px 70px 20px 70px;
+  }
+  .fas.back {
+    margin-left: -5%;
+  }
+  .dish-box:hover {
+    & .fa-check {
+      animation: check-rotate 0.5s;
+    }
+  }
+  .fas-title{
+    & .fas:not(.hidden) {
+      margin-left: 97%;
+    }
+    & .fas.hidden {
+      margin-left: 97%;
+  }
+  }
+}
