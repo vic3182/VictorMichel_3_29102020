@@ -1,20 +1,21 @@
-@import "./utils/fonctions";
-@import "./utils/variables";
-@import "./utils/mixins";
-@import "./utils/placeholders";
 @import "./utils/anims";
+@import "./utils/variables";
+
 //@import "./vendors";
 @import "./base/typographie";
-@import "./componements/a";
-@import "./componements/btn";
-@import "./componements/load_spinner";
-@import "./componements/fas";
-@import "./componements/table";
-@import "./componements/check_appear";
-@import "./componements/price";
-@import "./layouts/main";
-@import "./layouts/footer";
-@import "./layouts/header";
+@import "./components/a";
+@import "./components/btn";
+@import "./components/load_spinner";
+@import "./components/fas";
+@import "./components/check_appear";
+@import "./components/price";
+
+@import "./layout/main";
+@import "./layout/footer";
+@import "./layout/header";
 @import "./pages/index";
 @import "./pages/desktop";
 @import "./pages/index_desktop";
+
+
+
