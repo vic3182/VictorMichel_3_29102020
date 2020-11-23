@@ -5,10 +5,13 @@ CSS is the palette we use to paint the web, making pages beautiful, identifiable
 # Commandes SASS
 
 1. Installer node.js 
+
 2.Initialiser le npm 
+
 Dans le terminal et CD C:\Users\Victor\Desktop\Projet-3 puis npm init 
 
 3. Installer Node sass
+
 Dans le terminal : npm install node-sass
 
 4. Ecrire la commande node-sass
