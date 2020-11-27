@@ -230,7 +230,6 @@ a {
   display: block;
   margin: 40px auto 70px;
   padding: 15px 50px;
-  bottom: -130px;
 }
 
 .load-spinner {
@@ -655,11 +654,9 @@ span {
     text-align: center;
   }
   .btn--order {
-    position: absolute;
-    display: block;
-    height: 50px;
-    width: 95%;
-    margin: 70px 70px 20px 70px;
+   display: block;
+   height: 50px;
+   margin: 70px 70px 20px 70px;
   }
   .fas.back {
     margin-left: -5%;
