@@ -224,6 +224,7 @@ a {
   color: white;
   margin: 0px 0px 50px;
   box-shadow: 2px 2px 5px 2px #dddddd;
+  cursor: pointer;
 }
 
 .btn--order {
