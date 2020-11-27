@@ -224,13 +224,13 @@ a {
   color: white;
   margin: 0px 0px 50px;
   box-shadow: 2px 2px 5px 2px #dddddd;
+  cursor: pointer;
 }
 
 .btn--order {
-  display: block;
-  margin: 40px auto 70px;
-  padding: 15px 50px;
-  bottom: -200px;
+ display: block;
+ margin: 40px auto 70px;
+ padding: 15px 50px;
 }
 
 .load-spinner {
@@ -626,7 +626,7 @@ span {
   animation: load-wrapper 6s;
 }
 
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1026px) {
   header {
     margin: 0px;
     padding: 0px;
@@ -655,10 +655,8 @@ span {
     text-align: center;
   }
   .btn--order {
-    position: absolute;
     display: block;
     height: 50px;
-    width: 95%;
     margin: 70px 70px 20px 70px;
   }
   .fas.back {
