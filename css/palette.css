@@ -656,7 +656,7 @@ span {
   .btn--order {
    display: block;
    height: 50px;
-   margin: 70px 70px 20px 70px;
+   margin: 20px 70px 20px 70px;
   }
   .fas.back {
     margin-left: -5%;
