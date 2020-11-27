@@ -228,7 +228,6 @@ a {
 
 .btn--order {
   display: block;
-  position: absolute;
   margin: 40px auto 70px;
   padding: 15px 50px;
   
@@ -656,10 +655,8 @@ span {
     text-align: center;
   }
   .btn--order {
-    position: absolute;
     display: block;
     height: 50px;
-    width: 95%;
     margin: 70px 70px 20px 70px;
   }
   .fas.back {
